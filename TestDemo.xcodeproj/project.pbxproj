@@ -14,7 +14,6 @@
 		A74563971BD8CC7B009C34B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74563951BD8CC7B009C34B6 /* LaunchScreen.storyboard */; };
 		A74563A21BD8CC7B009C34B6 /* TestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563A11BD8CC7B009C34B6 /* TestDemoTests.swift */; };
 		A74563AD1BD8CC7B009C34B6 /* TestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563AC1BD8CC7B009C34B6 /* TestDemoUITests.swift */; };
-		A74563C01BD8CCE7009C34B6 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563BB1BD8CCE7009C34B6 /* NavigationControllerDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		A74563C11BD8CCE7009C34B6 /* UGCTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563BC1BD8CCE7009C34B6 /* UGCTransition.swift */; settings = {ASSET_TAGS = (); }; };
 		A74563C21BD8CCE7009C34B6 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563BD1BD8CCE7009C34B6 /* UIView+Layout.swift */; settings = {ASSET_TAGS = (); }; };
 		A74563C31BD8CCE7009C34B6 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563BE1BD8CCE7009C34B6 /* ViewControllerOne.swift */; settings = {ASSET_TAGS = (); }; };
@@ -53,7 +52,6 @@
 		A74563A81BD8CC7B009C34B6 /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74563AC1BD8CC7B009C34B6 /* TestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDemoUITests.swift; sourceTree = "<group>"; };
 		A74563AE1BD8CC7B009C34B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A74563BB1BD8CCE7009C34B6 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		A74563BC1BD8CCE7009C34B6 /* UGCTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UGCTransition.swift; sourceTree = "<group>"; };
 		A74563BD1BD8CCE7009C34B6 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		A74563BE1BD8CCE7009C34B6 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 				A74563BE1BD8CCE7009C34B6 /* ViewControllerOne.swift */,
 				A74563BF1BD8CCE7009C34B6 /* ViewControllerTwo.swift */,
 				A74563C51BD8E27B009C34B6 /* ViewControllerThree.swift */,
-				A74563BB1BD8CCE7009C34B6 /* NavigationControllerDelegate.swift */,
 				A74563BC1BD8CCE7009C34B6 /* UGCTransition.swift */,
 			);
 			name = TransitionAnimation;
@@ -285,7 +282,6 @@
 				A74563C11BD8CCE7009C34B6 /* UGCTransition.swift in Sources */,
 				A745638F1BD8CC7B009C34B6 /* ViewController.swift in Sources */,
 				A74563C61BD8E27B009C34B6 /* ViewControllerThree.swift in Sources */,
-				A74563C01BD8CCE7009C34B6 /* NavigationControllerDelegate.swift in Sources */,
 				A74563C31BD8CCE7009C34B6 /* ViewControllerOne.swift in Sources */,
 				A745638D1BD8CC7B009C34B6 /* AppDelegate.swift in Sources */,
 				A74563C21BD8CCE7009C34B6 /* UIView+Layout.swift in Sources */,
@@ -513,6 +509,7 @@
 				A74563B31BD8CC7B009C34B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A74563B41BD8CC7B009C34B6 /* Build configuration list for PBXNativeTarget "TestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +518,7 @@
 				A74563B61BD8CC7B009C34B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A74563B71BD8CC7B009C34B6 /* Build configuration list for PBXNativeTarget "TestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +527,7 @@
 				A74563B91BD8CC7B009C34B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
