@@ -8,17 +8,29 @@
 
 import UIKit
 
-class ViewControllerThree: UIViewController {
+class ViewControllerThree: UIViewController,UIViewControllerTransitioningDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.grayColor()
         self.title = "Three"
+        self.transitioningDelegate = self
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Four", style: .Plain, target: self, action: "gotoNext")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return nil
+    }
+    
+    func gotoNext(){
+        let toVC = ViewControllerFour()
+//        toVC.transitioningDelegate = self
+        self.presentViewController(toVC, animated: true, completion: nil)
     }
 }

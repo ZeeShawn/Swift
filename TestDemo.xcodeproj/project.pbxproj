@@ -19,6 +19,7 @@
 		A74563C31BD8CCE7009C34B6 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563BE1BD8CCE7009C34B6 /* ViewControllerOne.swift */; settings = {ASSET_TAGS = (); }; };
 		A74563C41BD8CCE7009C34B6 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563BF1BD8CCE7009C34B6 /* ViewControllerTwo.swift */; settings = {ASSET_TAGS = (); }; };
 		A74563C61BD8E27B009C34B6 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563C51BD8E27B009C34B6 /* ViewControllerThree.swift */; settings = {ASSET_TAGS = (); }; };
+		A74563CB1BDA1430009C34B6 /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74563CA1BDA1430009C34B6 /* ViewControllerFour.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A74563BE1BD8CCE7009C34B6 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
 		A74563BF1BD8CCE7009C34B6 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		A74563C51BD8E27B009C34B6 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		A74563CA1BDA1430009C34B6 /* ViewControllerFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				A74563BE1BD8CCE7009C34B6 /* ViewControllerOne.swift */,
 				A74563BF1BD8CCE7009C34B6 /* ViewControllerTwo.swift */,
 				A74563C51BD8E27B009C34B6 /* ViewControllerThree.swift */,
+				A74563CA1BDA1430009C34B6 /* ViewControllerFour.swift */,
 				A74563BC1BD8CCE7009C34B6 /* UGCTransition.swift */,
 			);
 			name = TransitionAnimation;
@@ -284,6 +287,7 @@
 				A74563C61BD8E27B009C34B6 /* ViewControllerThree.swift in Sources */,
 				A74563C31BD8CCE7009C34B6 /* ViewControllerOne.swift in Sources */,
 				A745638D1BD8CC7B009C34B6 /* AppDelegate.swift in Sources */,
+				A74563CB1BDA1430009C34B6 /* ViewControllerFour.swift in Sources */,
 				A74563C21BD8CCE7009C34B6 /* UIView+Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
