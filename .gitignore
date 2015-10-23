@@ -11,7 +11,13 @@
 !default.perspectivev3
 xcuserdata
 profile
+
+*.xccheckout
 *.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
 DerivedData
 .idea/
 *.hmap
+*.ipa
